@@ -1,13 +1,13 @@
-# dsh-auto-control
+# local-dsh-computer-use
 
-仓库：<https://github.com/ll4514dvdvdb/dsh-auto-control>　包名（没变）：`@local/dsh-computer-use`。DSH 的电脑操作插件，本仓库是唯一分发源。
+仓库：<https://github.com/ll4514dvdvdb/local-dsh-computer-use>　包名（没变）：`@local/dsh-computer-use`。DSH 的电脑操作插件，本仓库是唯一分发源。
 
 DeepSeek Harness（DSH）的电脑操作能力：截图、鼠标、键盘、剪贴板、窗口与 UI Automation、
 应用启动、批量动作，以及输入框工具栏里的「电脑操作」开关。
 
 ## 安装：一条命令
 
-最新安装包：<https://github.com/ll4514dvdvdb/dsh-auto-control/releases/latest>（`dsh-computer-use-<版本>-<日期>.zip`，解压后见下）。
+最新安装包：<https://github.com/ll4514dvdvdb/local-dsh-computer-use/releases/latest>（`dsh-computer-use-<版本>-<日期>.zip`，解压后见下）。
 
 在解压出来的插件根执行：
 
