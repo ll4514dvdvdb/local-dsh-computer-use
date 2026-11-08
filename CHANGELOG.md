@@ -3,7 +3,7 @@
 ## 1.43.2
 
 - 许可证补全：LICENSE 保留原作者 LJL454 的版权行，另加 ll4514dvdvdb and local-dsh-computer-use contributors 一行（MIT 对派生作品的要求：上游声明不能删，自己的改动要能溯源）。
-- package.json 补 uthor（两位署名）与 epository（指向 GitHub 仓库）。
+- package.json 补 author（两位署名）与 repository（指向 GitHub 仓库）。
 - 仓库改名 dsh-auto-control → local-dsh-computer-use，与包名 @local/dsh-computer-use 对齐，地址 https://github.com/ll4514dvdvdb/local-dsh-computer-use 。
 
 ## 1.43.1

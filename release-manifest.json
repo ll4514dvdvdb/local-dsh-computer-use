@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "name": "@local/dsh-computer-use",
-  "version": "1.43.1",
-  "builtAt": "2026-11-08T01:09:32.662Z",
-  "releaseBuildId": "7a10f75c48d0c8c4",
+  "version": "1.43.2",
+  "builtAt": "2026-11-08T01:29:47.298Z",
+  "releaseBuildId": "bce084f727415cce",
   "files": [
     {
       "name": "backend/bridge.js",
@@ -252,13 +252,13 @@
     },
     {
       "name": "LICENSE",
-      "bytes": 1063,
-      "sha256": "e7d16fe03f24a8692d73ad678c1987b2280fddc84b98e4d2619a0e733c940ab4"
+      "bytes": 1136,
+      "sha256": "b7c41c4f04e16d901400275e496bf7f42543d057c3d642a01ea4b9b6080f981c"
     },
     {
       "name": "package.json",
-      "bytes": 2297,
-      "sha256": "bed34cfcda9a71e02940f13a35eeadcbc6c4680fd7d6f22d09579045b1ec1e09"
+      "bytes": 2433,
+      "sha256": "1a16e9ad0e63d40e3c7ebdeddd33653fb6d2ab02d686a662e2fdcce6e46cc430"
     },
     {
       "name": "presets/cordis.patch.yml",
@@ -277,8 +277,8 @@
     },
     {
       "name": "README.md",
-      "bytes": 14452,
-      "sha256": "538202e375509f591f338f4763a2789939969b7c61a836601903ac1ed2c4bbf5"
+      "bytes": 16869,
+      "sha256": "a177bdd14f413f1de8dc4f73790eaacc3f2c61b968b45406fa9025967eec0323"
     }
   ]
 }
