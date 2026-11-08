@@ -1,12 +1,12 @@
 {
   "name": "@local/dsh-computer-use",
-  "version": "1.43.1",
+  "version": "1.43.2",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ll4514dvdvdb/local-dsh-computer-use.git"
   },
-  "author": "LJL454 <134773405+LJL454@users.noreply.github.com>",
+  "author": "LJL454 <134773405+LJL454@users.noreply.github.com>, ll4514dvdvdb",
   "type": "module",
   "description": "电脑操作 (computer use) capability for DeepSeek Harness: screenshot, mouse, keyboard, clipboard, app launch, window and UI Automation tools, batched actions, coded failures, plus a 电脑操作 toggle chip in the composer tool row.",
   "exports": {
