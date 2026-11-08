@@ -1,0 +1,284 @@
+{
+  "schema": 1,
+  "name": "@local/dsh-computer-use",
+  "version": "1.43.1",
+  "builtAt": "2026-11-08T01:09:32.662Z",
+  "releaseBuildId": "7a10f75c48d0c8c4",
+  "files": [
+    {
+      "name": "backend/bridge.js",
+      "bytes": 32396,
+      "sha256": "2e9efa53b3c0713a7b1f77de90dc69395025a8905fbef2cb1e70424662a55e90"
+    },
+    {
+      "name": "backend/indicator.ps1",
+      "bytes": 18392,
+      "sha256": "e666ad2efd52c2fdd416d28c7fef51bf47af271d4dc7940eafe89a8d0f8992c1"
+    },
+    {
+      "name": "backend/parts/00-preamble.ps1",
+      "bytes": 1442,
+      "sha256": "74948c090a36977111cf75ec1282fd74d71e6afa14604ba494385afc2ad0950d"
+    },
+    {
+      "name": "backend/parts/01-cancellation.ps1",
+      "bytes": 8036,
+      "sha256": "93c87f09d1ff385e34d7f52e399a2259e9607dfef866d4e006f6f0fab7811663"
+    },
+    {
+      "name": "backend/parts/02-native-code.ps1",
+      "bytes": 22504,
+      "sha256": "c521395c2baa6620d307c766bd1a4c562886064463f5fcdf99440ee98a9531e4"
+    },
+    {
+      "name": "backend/parts/02b-takeover.ps1",
+      "bytes": 19813,
+      "sha256": "3a8b0f532e435767f8f3a4bc5c2a50403e31305c92accbf923cfba9b27b32bea"
+    },
+    {
+      "name": "backend/parts/03-com-uia-engine.ps1",
+      "bytes": 104836,
+      "sha256": "82e3ba94b54fcca330a8b538ffaf5a4612e74ef982598caffc4ea4d1c3b63c48"
+    },
+    {
+      "name": "backend/parts/04-utilities.ps1",
+      "bytes": 1732,
+      "sha256": "7faa8956fa7941c55af9a10e577ddf642220c2787434008044f1b52ecfd9c91f"
+    },
+    {
+      "name": "backend/parts/05-input-state.ps1",
+      "bytes": 47770,
+      "sha256": "4b7ccdf81d93be8e10e917b35deb56fc39a77f76bb0ba57b3d3c7363ebb988cc"
+    },
+    {
+      "name": "backend/parts/05b-perceptual.ps1",
+      "bytes": 7173,
+      "sha256": "f58d478612ce6795953c369114f191c9091c575d1495681e72ae6ebae5294c70"
+    },
+    {
+      "name": "backend/parts/06-related-capture.ps1",
+      "bytes": 51956,
+      "sha256": "dbcc50536df0eeee57b2fc1e548124391849ae2f59a1f8518d24fe91044af367"
+    },
+    {
+      "name": "backend/parts/07-frames.ps1",
+      "bytes": 129946,
+      "sha256": "2e6d05bd5be44bb0888673642820c8f11f67fc5705a02d70adb2648b97029b3a"
+    },
+    {
+      "name": "backend/parts/08-element-refs.ps1",
+      "bytes": 6477,
+      "sha256": "8faac7c73983947f5bcd212d459681115e3a8dbb03775b2f1d80e98ffcfb023f"
+    },
+    {
+      "name": "backend/parts/09-what-the-model-reads.ps1",
+      "bytes": 22403,
+      "sha256": "4eda2dd2986b34a88ff6d0f4ecf48c4bcdefadca924f213bf1960683712ec937"
+    },
+    {
+      "name": "backend/parts/10-text-observation.ps1",
+      "bytes": 106646,
+      "sha256": "cb539ac23d6cab5c7b0d1d4c609d9be5918b33055bed359cfca431c28464389b"
+    },
+    {
+      "name": "backend/parts/11-waiting.ps1",
+      "bytes": 45572,
+      "sha256": "621f2eac969399e9e47b22b60a6475c44c623b60d3b611c3ef7a566b4685621c"
+    },
+    {
+      "name": "backend/parts/12-batching.ps1",
+      "bytes": 74335,
+      "sha256": "77a0ae49078140bc680712c47398981f277de49b28bd3f2ac63cb83d526f67c3"
+    },
+    {
+      "name": "backend/parts/13-main-loop.ps1",
+      "bytes": 35377,
+      "sha256": "6685a90d271ea7e776f74f523c657ebd2bbd1ebfa19c44dc79ae8404a6138dad"
+    },
+    {
+      "name": "backend/release-input.ps1",
+      "bytes": 6820,
+      "sha256": "416278de2df541f17dda71cce806a0810e0f64bfc4298678c4c901722ecda60f"
+    },
+    {
+      "name": "backend/worker.ps1",
+      "bytes": 686018,
+      "sha256": "47882174a5947c88e990a145134fefcd239ad4c03ea5af417387f75e921c7ec5"
+    },
+    {
+      "name": "browser/actions.mjs",
+      "bytes": 39651,
+      "sha256": "e29345027fe501640a2885a7ded5a294bc7c3d1bf8d9e03282b7a9d4e5dc895d"
+    },
+    {
+      "name": "browser/connection.mjs",
+      "bytes": 25826,
+      "sha256": "8cad531d77a11704e9040b96cbca72a8147734760bd7ae876b3de2bf3311da94"
+    },
+    {
+      "name": "browser/state.mjs",
+      "bytes": 16146,
+      "sha256": "b436a4f1b1897947fe001a004903121f13911252384f617b5ce7cd62d3b788fb"
+    },
+    {
+      "name": "client.js",
+      "bytes": 28651,
+      "sha256": "1fe578d0649bd4b3622aa17e7dcf965f8a2bc161a5d51f93785cad40f2e8bd25"
+    },
+    {
+      "name": "cordis.patch.yml",
+      "bytes": 2580,
+      "sha256": "4f13f76b49155ece8f8a56b5d51235a8fd867c721bdeb0e806ea47303847ccc1"
+    },
+    {
+      "name": "doctor.mjs",
+      "bytes": 14336,
+      "sha256": "4c5cd35f51498d745496636c8c26a7a9b19d882d13c30d061782dea9e17c94fd"
+    },
+    {
+      "name": "index.js",
+      "bytes": 275692,
+      "sha256": "6e05c9d12e9b3f85840f53624a8b02ef48df744b18d8159a731f951041d46eba"
+    },
+    {
+      "name": "INSTALL.md",
+      "bytes": 17860,
+      "sha256": "d40b7f9211fac3b56fb7d995f225e90e9cbdfe3d347a222bc001e594206e47d1"
+    },
+    {
+      "name": "internal/app-launch.js",
+      "bytes": 17711,
+      "sha256": "bb271068650e9ad7d341128c8e9877aab4bba8c4dd4086dc58a98ef57dd24e48"
+    },
+    {
+      "name": "internal/app-launch.mjs",
+      "bytes": 12609,
+      "sha256": "8e7d94fe597d62f026405c019632457e4b9ea7010921423d0042ca02e677ea8c"
+    },
+    {
+      "name": "internal/build-check.mjs",
+      "bytes": 5434,
+      "sha256": "ee140b221885c73bc0b448943eeeccfc01dd7b1ccc5c90ea670217f6e0f2d7b1"
+    },
+    {
+      "name": "internal/capture.mjs",
+      "bytes": 24117,
+      "sha256": "3310ae275ca333baf23e1841a8fb77f81d208e3bd571455d6f78decf3e0ba26b"
+    },
+    {
+      "name": "internal/diagnostic-report.mjs",
+      "bytes": 7181,
+      "sha256": "ddb0eda856e0915c30c3f93ff37f8a08d3a5940e8b901f899fb389a8a0250f55"
+    },
+    {
+      "name": "internal/doctor.mjs",
+      "bytes": 19415,
+      "sha256": "7b883885326c71db2e801d34503991f1524433f9c969b9329cb9cf72e82e9bad"
+    },
+    {
+      "name": "internal/execution.mjs",
+      "bytes": 6943,
+      "sha256": "20ba15cb95f83af379caf54981746889a6a36bd480ecdbd4dd4d10133bd9f399"
+    },
+    {
+      "name": "internal/failures.mjs",
+      "bytes": 23527,
+      "sha256": "22ba620772748bec94f6fb4d85ca0ca584563de2fdf7112a8fd2aa55fe5f68af"
+    },
+    {
+      "name": "internal/host-packages.mjs",
+      "bytes": 5818,
+      "sha256": "af26dd19ee068a2805c848d259901c4493dceb8f78b7f92c3e1d797a9761b99f"
+    },
+    {
+      "name": "internal/instance-registry.mjs",
+      "bytes": 5810,
+      "sha256": "901710874b017d3927902ec8c5f72ab3f3951a2176f14da9f9fa07647f2d99cf"
+    },
+    {
+      "name": "internal/lease.mjs",
+      "bytes": 5983,
+      "sha256": "1468bd25e711cbd51fee5f4dcedd44e70d5cd55092ff5f0ad5ba926f3536ea6e"
+    },
+    {
+      "name": "internal/powershell.mjs",
+      "bytes": 6541,
+      "sha256": "55d79b56382fbe46dac0a58bbddb62d114aac2f3b12b18b35145d6551675edc0"
+    },
+    {
+      "name": "internal/preflight.mjs",
+      "bytes": 8827,
+      "sha256": "4a3c4decce034615344d870c25f27c1b0f41a129a90cdf12bc02304a73949693"
+    },
+    {
+      "name": "internal/profile-check.mjs",
+      "bytes": 12347,
+      "sha256": "dd43d3ac5ab48aaa77132a2b16b670d096c2006caa014195e3adc25254215bde"
+    },
+    {
+      "name": "internal/refs.mjs",
+      "bytes": 7401,
+      "sha256": "e9dae456c68f56acdc68a658ec57fc1563775ef105a94e07cb8704c87aeb3a0e"
+    },
+    {
+      "name": "internal/release-manifest.mjs",
+      "bytes": 11419,
+      "sha256": "634b209d977c69a97eeb9936699151a3e40e25cff8f5a7032533870fe359aa23"
+    },
+    {
+      "name": "internal/schema-visibility.mjs",
+      "bytes": 13402,
+      "sha256": "48b6f1917b525b0d7f12ab0cf4cc3c1a47b1c48537072636774cd227ee110362"
+    },
+    {
+      "name": "internal/sessions.mjs",
+      "bytes": 2308,
+      "sha256": "74303afe25b505f7a83e8fe67749284ce65f089e83775b6ca4659c4b0001e9c9"
+    },
+    {
+      "name": "internal/summarize.js",
+      "bytes": 14021,
+      "sha256": "34624c9eaf88128afc9803a98f9adc128a721aca4d04aa6baff0641874e44e7c"
+    },
+    {
+      "name": "internal/token-guard.mjs",
+      "bytes": 13371,
+      "sha256": "7801da2ddd578937f8c3fbde9cf21aa79ce7659ee15f091737acc8d789d47c46"
+    },
+    {
+      "name": "internal/tool-contracts.mjs",
+      "bytes": 84645,
+      "sha256": "4258b983e9acf6f4ee68e0fec4f88268c9167130befdc788cc67815a3ee50b73"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 1063,
+      "sha256": "e7d16fe03f24a8692d73ad678c1987b2280fddc84b98e4d2619a0e733c940ab4"
+    },
+    {
+      "name": "package.json",
+      "bytes": 2297,
+      "sha256": "bed34cfcda9a71e02940f13a35eeadcbc6c4680fd7d6f22d09579045b1ec1e09"
+    },
+    {
+      "name": "presets/cordis.patch.yml",
+      "bytes": 9775,
+      "sha256": "e47a10ef29d0f24ab51139bbd248cb07a645d169b37b17ef4d1d5f303f1d334d"
+    },
+    {
+      "name": "presets/package.json",
+      "bytes": 720,
+      "sha256": "361889bb9ec09ee85971dce2fe11ec2bb4f0db2f1a1ccfd378984977c83c081a"
+    },
+    {
+      "name": "presets/README.md",
+      "bytes": 1888,
+      "sha256": "f9e15405e5fa7af8e3e27e7fb4089651bce112d5d6435ff108737677c263f6bd"
+    },
+    {
+      "name": "README.md",
+      "bytes": 14452,
+      "sha256": "538202e375509f591f338f4763a2789939969b7c61a836601903ac1ed2c4bbf5"
+    }
+  ]
+}

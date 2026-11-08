@@ -1,0 +1,51 @@
+# Insert this plugin as its own row in the desktop profile's loader tree.
+#
+# The row name must match package.json's "name"; the package itself has to be a
+# dependency of the profile (and listed in its dsh.profile.bundles) for this file
+# to be read at all.
+#
+# 本 bundle 承载核心的三件事（原先分属三个插件包，现已合并到 @local/dsh-computer-use）：
+#   * 电脑操作 —— `computer_*` 系列工具，仍由会话开关「电脑操作」控制；
+#   * token-guard —— 把过长的工具返回压成结构化摘要（原 @local/dsh-token-guard），
+#     由下面的 config.tokenGuard 控制；
+#   * app-launch —— 用干净环境启动 GUI 应用（原 @local/dsh-app-launch），
+#     由下面的 config.appLaunch 控制。
+#
+# 三个任务预设（task-desktop / task-analysis / task-document）自 1.40.0 起拆到
+# presets/cordis.patch.yml，需要时把插件根下的 presets/ 作为独立 bundle 安装。
+# 核心安装不再读取文档/分析运行时路径，预设坏了也不会遮蔽电脑操作本身。
+- insert:
+    - id: computer-use
+      name: '@local/dsh-computer-use'
+      config:
+        # Computer control stays off until the user flips the 电脑操作 chip, per
+        # Session. Set this to true only on a machine where every Session is
+        # allowed to drive the mouse and keyboard without asking.
+        defaultEnabled: false
+
+        # ── 原 @local/dsh-token-guard 的配置（键名不变，便于与历史指标对照） ──
+        tokenGuard:
+          enabled: true
+          # 只压这两类结果：shell 输出。桌面/图像结果刻意不动（见 docs/01 §3.5）。
+          tools:
+            - pwsh
+          # 普通成功输出预算（6.txt 三-2：约 300–800 token）
+          normalMaxTokens: 800
+          # 排障输出预算（6.txt 三-2：优先控制在 2,000 token 内）
+          troubleshootingMaxTokens: 2000
+          # 带图的返回保持原样，避免干扰图像缓存实验
+          skipImageResults: true
+          # 完整输出必须可追溯：优先写 spill，缺失时写本地文件
+          keepFullOutput: true
+          fullOutputDir: ''
+          # 每次压缩追加一行指标，供配对测试读取
+          metrics: true
+          metricsPath: ''
+
+        # ── 原 @local/dsh-app-launch 的配置（键名不变） ──
+        appLaunch:
+          enabled: true
+          # 等窗口出现多久才回话（毫秒）
+          defaultWaitMs: 6000
+          # 启动后不把应用挂在会话下
+          detach: true
