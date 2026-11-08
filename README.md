@@ -7,6 +7,8 @@ DeepSeek Harness（DSH）的电脑操作能力：截图、鼠标、键盘、剪�
 
 ## 安装：一条命令
 
+最新安装包：<https://github.com/ll4514dvdvdb/dsh-auto-control/releases/latest>（`dsh-computer-use-<版本>-<日期>.zip`，解压后见下）。
+
 在解压出来的插件根执行：
 
 ```powershell
