@@ -1,4 +1,6 @@
-# @local/dsh-computer-use
+# dsh-auto-control
+
+仓库：<https://github.com/ll4514dvdvdb/dsh-auto-control>　包名（没变）：`@local/dsh-computer-use`。DSH 的电脑操作插件，本仓库是唯一分发源。
 
 DeepSeek Harness（DSH）的电脑操作能力：截图、鼠标、键盘、剪贴板、窗口与 UI Automation、
 应用启动、批量动作，以及输入框工具栏里的「电脑操作」开关。
@@ -55,8 +57,8 @@ npm publish dist/@your-scope-dsh-computer-use-1.40.2.tgz --access public
 > （`preinstall` / `install` / `postinstall` / `prepare` 四个都实测过，一个都没跑），
 > 所以安装动作只能是一条命令或一个双击文件。
 
-当前版本 **1.41.0**；1.41.0 新增物理输入接管（人一碰键鼠就交还控制权）与 `computer_control`
-控制状态查询，详见 `CHANGELOG.md`。下面三条是 1.40.2 修的问题——它们会让能力"看起来装了却
+当前版本 **1.43.1**；1.41.0 起新增物理输入接管（人一碰键鼠就交还控制权）与 `computer_control`
+控制状态查询；1.42.0 加屏幕覆盖层（四边描边 + 光标光晕 + 点击扩散环 + 顶部提示条）与截图感知差异（`change{known,changed,cells,...}`）；1.43.1 把提示条改成和描边同色的强调蓝。详见 `CHANGELOG.md`。下面三条是 1.40.2 修的问题——它们会让能力"看起来装了却
 用不了"，仍在生效范围内：
 
 * **装完起不来**：旧版把 `@deepseek-ai/dsh-tools` 声明成 `optional: false` 的 peer，
